@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "onoff": "^6.0.3",
+    "pnpm": "^10.6.5",
+    "rpio": "^2.4.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "luz",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
