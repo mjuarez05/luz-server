@@ -24,6 +24,6 @@ app.get("/apagar", (req, res) => {
 
 // Iniciar servidor en el puerto 5000
 const PORT = 5000;
-app.listen(PORT, "0.0.0.0", () => {
-  console.log(`🚀 Servidor corriendo en http://0.0.0.0:${PORT}`);
+app.listen(PORT, "localhost", () => {
+  console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
 });
